@@ -3,8 +3,8 @@ export default function CardsCollaborators() {
   return (
     <>
         {CONTRIBUIDORES.map((Contribuidor) => (
-        <div>
-          <img src={Contribuidor.avatar} alt="" />
+        <div key={Contribuidor.avatar}>
+          <img src={Contribuidor.avatar} alt={Contribuidor.avatar} />
         </div>
       ))}{" "}
     </>

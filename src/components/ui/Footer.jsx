@@ -8,9 +8,9 @@ export default function Footer() {
                         <p>Desarrollado por egresados de </p>
                         <img className="footer-img" src='/pescar.webp' alt='Fundación Pescar' />
                         <ul className='footer-ul'>
-                            <li>GitHub</li>
-                            <li>Google Drive</li>
-                            <li>Artech</li>
+                            <a href="https://www.google.com/" rel='noopener' target='__black'><li>GitHub</li></a>
+                            <a href="https://www.google.com/" rel='noopener' target='__black'><li>Google Drive</li></a>
+                            <a href="https://www.artech-consulting.com.ar/" rel='noopener' target='__black'><li>Artech</li></a>
                         </ul>
                     </div>
             </footer>
