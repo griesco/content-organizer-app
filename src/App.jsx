@@ -11,7 +11,7 @@ function App() {
         <Cards clases={9} tecnologia={"SQL"} profesor={"Leandro Morrone"} img={"sql.png"} />
         <Cards clases={6} tecnologia={"React"} profesor={"Ivan Carvajal - Geronimo Riesco"} img={"react.svg"} />
         <Cards clases={6} tecnologia={".NET"} profesor={"Leandro Morrone "} img={"dotnet.png"} />
-      </div>
+      </div> 
       <Sponsors />
       <Collaborators />
       <Footer />
