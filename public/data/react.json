@@ -1,0 +1,31 @@
+{
+  "clases": [
+    {
+      "idCurso": "3",
+      "id": "1",
+      "clase": "Clase 1 - Introducción a JavaScript",
+      "resumen": "...",
+      "material": "https://drive.google.com/drive/folders/1JZExyiWde427O_vqWxRSP_s-dR0WHW64",
+      "repositorio": "https://artech-gitlab.dyndns.org/griesco/react-fisher",
+      "video": null
+    },
+    {
+      "idCurso": "3",
+      "id": "2",
+      "clase": "Clase 2 - Introducción a React",
+      "resumen": "...",
+      "material": "https://drive.google.com/drive/folders/1Vh-tFkZhYBjAD10cVCS-30roMUyuUGZP",
+      "repositorio": "https://artech-gitlab.dyndns.org/griesco/react-fisher",
+      "video": null
+    },
+    {
+      "idCurso": "3",
+      "id": "3",
+      "clase": "Clase 3 - Introducción a JSX",
+      "resumen": "...",
+      "material": "https://drive.google.com/drive/folders/12l5bGjnrl0s3z80pkuwVJt7zA2hiCJu2",
+      "repositorio": "https://artech-gitlab.dyndns.org/griesco/react-fisher",
+      "video": null
+    }
+  ]
+}

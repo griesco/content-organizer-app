@@ -1,0 +1,31 @@
+{
+  "clases": [
+    {
+      "idCurso": "2",
+      "id": "1",
+      "clase": "Clase 1 - Introducción a C#",
+      "resumen": "...",
+      "material": "https://drive.google.com/drive/folders/1o2H2rV9HKs9hZ4NsxN7xmFOt_ZkjDw_1",
+      "repositorio": "https://artech-gitlab.dyndns.org/users/lmorrone/projects",
+      "video": null
+    },
+    {
+      "idCurso": "2",
+      "id": "2",
+      "clase": "Clase 2 - Introducción a POO",
+      "resumen": "...",
+      "material": "https://drive.google.com/drive/folders/1IGjtRvCL-57rIjBY3Xqd4OUtkXXJl9cL",
+      "repositorio": "https://artech-gitlab.dyndns.org/users/lmorrone/projects",
+      "video": null
+    },
+    {
+      "idCurso": "2",
+      "id": "3",
+      "clase": "Clase 3 - Objetos y herencia",
+      "resumen": "...",
+      "material": "https://drive.google.com/drive/folders/1Snl92dGzB_rqRMOr7nssBbzAyeJzga8P",
+      "repositorio": "https://artech-gitlab.dyndns.org/users/lmorrone/projects",
+      "video": null
+    }
+  ]
+}
