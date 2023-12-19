@@ -4,7 +4,7 @@ export default function CardsCollaborators() {
     <>
         {CONTRIBUIDORES.map((Contribuidor) => (
         <div>
-          <img src={Contribuidor.avatar} alt="" />
+          <img className="contribuidorImg" src={Contribuidor.avatar} alt="" />
         </div>
       ))}{" "}
     </>
