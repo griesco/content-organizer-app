@@ -1,7 +1,11 @@
+import { Sponsors } from "./components/Sponsors";
 
 function App() {
   return (
-    <h1>Hola Mundo</h1>
+    <>
+      <h1>Hola Mundo</h1>
+      <Sponsors />
+    </>
   );
 }
 
