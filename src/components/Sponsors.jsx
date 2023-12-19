@@ -1,7 +1,7 @@
 import "../styles/Sponsors.css";
 import CardsSponsors from "./ui/CardsSponsors";
 
-export function Sponsors() {
+export default function Sponsors() {
     return (
         <main>
             <h2 className="sponsorsTitulo">Patrocinadores</h2>
