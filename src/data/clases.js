@@ -108,6 +108,24 @@ export const CLASES = [
         video: null
     },
     {
+        idCurso: "2",
+        id: "4",
+        clase: "Clase 4 - Ejercicio integrador POO",
+        resumen: "...",
+        material: "https://drive.google.com/drive/folders/1Snl92dGzB_rqRMOr7nssBbzAyeJzga8P",
+        repositorio: "https://artech-gitlab.dyndns.org/users/lmorrone/projects",
+        video: null
+    },
+    {
+        idCurso: "2",
+        id: "5",
+        clase: "Clase 5 - ASP.Net API",
+        resumen: "...",
+        material: "https://drive.google.com/drive/folders/1-FIFAW4iORR1AwIwBmn658nXYmjICyIN",
+        repositorio: "https://artech-gitlab.dyndns.org/users/lmorrone/projects",
+        video: null
+    },
+    {
         idCurso: "3",
         id: "1",
         clase: "Clase 1 - Introducción a JavaScript",
@@ -131,6 +149,24 @@ export const CLASES = [
         clase: "Clase 3 - Introducción a JSX",
         resumen: "...",
         material: "https://drive.google.com/drive/folders/12l5bGjnrl0s3z80pkuwVJt7zA2hiCJu2",
+        repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher",
+        video: null
+    },
+    {
+        idCurso: "3",
+        id: "4",
+        clase: "Clase 4 - Ejercicio Contador (useState)",
+        resumen: "...",
+        material: "https://drive.google.com/drive/folders/1sbnefV96g4TvLDJe2rj5ktUM3IYypo9V",
+        repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher",
+        video: null
+    },
+    {
+        idCurso: "3",
+        id: "5",
+        clase: "Clase 5 - Ejercicio Integrador",
+        resumen: "...",
+        material: "https://drive.google.com/drive/folders/1upFs1OXzFMSPsUicyQFs7Uo9VIt6ukcu",
         repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher",
         video: null
     }

@@ -1,4 +1,4 @@
-export const recursos = [
+export const RECURSOS = [
     {
         idCurso: "1",
         id: "1",

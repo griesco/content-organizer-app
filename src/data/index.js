@@ -1,3 +1,6 @@
-import { cursos } from './cursos.js';
+import { CLASES } from './clases.js'
+import { CONTRIBUIDORES } from './contribuidores.js';
+import { CURSOS } from './cursos.js';
+import { RECURSOS } from './recursos.js'
 
-export { cursos }
+export { CLASES, CONTRIBUIDORES, CURSOS, RECURSOS }

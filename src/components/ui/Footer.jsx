@@ -1,19 +1,46 @@
-import '../../styles/Footer.css';
+import styles from '../../styles/Footer.module.css'
 
-export default function Footer() {
+export function Footer() {
     return (
-        <>
-            <footer className="footer-container">
-                    <div className="footer-container-contenido">
-                        <p>Desarrollado por egresados de </p>
-                        <img className="footer-img" src='/pescar.webp' alt='Fundación Pescar' />
-                        <ul className='footer-ul'>
-                            <a href="https://www.google.com/" rel='noopener' target='__black'><li>GitHub</li></a>
-                            <a href="https://www.google.com/" rel='noopener' target='__black'><li>Google Drive</li></a>
-                            <a href="https://www.artech-consulting.com.ar/" rel='noopener' target='__black'><li>Artech</li></a>
-                        </ul>
-                    </div>
-            </footer>
-        </>
+        <footer className={styles.footer}>
+            <div>
+                <a
+                    href='https://www.pescar.org.ar/'
+                    target='_blank'
+                    rel='noreferrer'
+                >
+                    Desarrollado por egresados de
+                    <picture>
+                        <img
+                            width='100'
+                            loading='lazy'
+                            style={{ marginTop: '-2px' }}
+                            src='/pescar.webp' alt='pescar logo'
+                        />
+                    </picture>
+                </a>
+                <span>&bull;</span>
+                <a
+                    href='https://github.com/griesco/content-organizer-app'
+                    rel='nofollow noreferrer'
+                    target='_blank'>
+                    GitHub
+                </a>
+                <span>&bull;</span>
+                <a
+                    href='https://drive.google.com/drive/folders/1Yx2zK1a7tUP4ar_L5OcccmeRkplQu1kj'
+                    rel='nofollow noreferrer'
+                    target='_blank'>
+                    Google Drive
+                </a>
+                <span>&bull;</span>
+                <a
+                    href='https://linktr.ee/artech.it'
+                    rel='nofollow noreferrer'
+                    target='_blank'>
+                    Artech
+                </a>
+            </div>
+        </footer>
     )
 }
