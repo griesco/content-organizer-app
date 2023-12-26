@@ -1,4 +1,4 @@
-import { Sponsors, Collaborators, Courses } from "../components"
+import { Collaborators, Courses, Sponsors } from '../components'
 
 export default function Cursos() {
     return (
@@ -8,4 +8,4 @@ export default function Cursos() {
             <Collaborators />
         </>
     )
-}
+} 

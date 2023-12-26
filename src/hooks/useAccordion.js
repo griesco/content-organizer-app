@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { accordionUtils } from "../utils"
 import { CLASES } from '../data';
 
 export function useAccordion(id) {
@@ -6,13 +7,13 @@ export function useAccordion(id) {
     const [active, setActive] = useState(null);
 
     useEffect(() => {
-        const groupClasses = Object.groupBy(CLASES, ({ idCurso }) => idCurso)
+        const groupClasses = Object.groupBy(CLASES, ({ idCurso }) => idCurso);
         setClasses(groupClasses[id]);
     }, [id]);
 
     const handleToggle = (index) => {
-        setActive((prevActive) => (prevActive === index ? null : index));
+        setActive((prevActive) => (accordionUtils(prevActive, index)));
     };
 
-    return { classes, active, handleToggle }
+    return { classes, active, handleToggle };
 }

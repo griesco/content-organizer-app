@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { RootLayout } from "../components";
+import { RootLayout } from "../components/layouts";
 import { Cursos, Curso } from "../pages";
 
 function Router() {

@@ -15,7 +15,7 @@
 
   --text-base-color: #000;
   --text-secondary-color: #333;
-  --text-title-color: #011440;
+  --text-title-color: #1f315a;
   --text-subtitle-color: #001e63;
   --text-small-color: #555;
   --graph-fill-color: #00adcc;
@@ -23,8 +23,8 @@
 
 html,
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-rendering: optimizeSpeed;
 }
 
