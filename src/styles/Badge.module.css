@@ -1,0 +1,28 @@
+.rbtBadge {
+  align-items: center;
+  background: rgba(79, 105, 151, 1);
+  border-radius: 500px;
+  border: 1px solid #fff;
+  box-shadow: 0 12px 22px 0 rgba(214, 191, 242, 0.28);
+  color: var(--app-background-color);
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 50px;
+  justify-content: center;
+  letter-spacing: -0.5px;
+  line-height: 50px;
+  margin: 10px;
+  padding: 0 20px;
+  width: 120px;
+}
+
+.rbtBadgeImage {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .rbtBadge {
+    width: 180px;
+  }
+}

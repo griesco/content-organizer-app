@@ -1,0 +1,11 @@
+.nabvar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nabvar a img {
+  position: fixed;
+  top: 25px;
+}

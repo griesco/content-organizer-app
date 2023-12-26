@@ -1,0 +1,13 @@
+.containerCourse {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .containerCourse {
+      margin-top: 80px;
+    }
+  }

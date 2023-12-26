@@ -1,0 +1,61 @@
+article {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 600px;
+}
+
+article header {
+  align-items: center;
+  background: #494964;
+  border-radius: 6px;
+  color: #f8f8f8;
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 0 10px 0 20px;
+}
+
+article header.active {
+  background: #494964cb;
+}
+
+article header.active span {
+  rotate: -180deg;
+}
+
+article h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 0 20px 10px;
+}
+
+article span {
+  transition: 0.3s;
+}
+
+.collapse {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: height 0.5s ease;
+}
+
+.collapse.show {
+  height: auto;
+}
+
+
+@media (max-width: 600px) {
+  article {
+    width: 352px;
+  }
+}

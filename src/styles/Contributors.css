@@ -1,0 +1,24 @@
+.contribuitors {
+  display: grid;
+  gap: 9px;
+  grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+  list-style: none;
+  margin: 0;
+  max-width: 800px;
+  padding: 0;
+  place-content: center;
+  place-items: center;
+  width: 100%;
+}
+
+.contribuitors-a {
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  place-items: center;
+}
+
+.contribuitors-a:hover {
+  box-shadow: var(--app-shadow-color) 7px 7px;
+}

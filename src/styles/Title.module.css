@@ -1,0 +1,15 @@
+.title {
+  color: var(--text-title-color);
+  display: flex;
+  font-size: 3rem;
+  line-height: 1.15;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .title {
+    align-items: center;
+    font-size: 2.5rem;
+  }
+}

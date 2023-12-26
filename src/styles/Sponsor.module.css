@@ -1,0 +1,29 @@
+.sponsorsAnchor {
+  align-items: center;
+  background-color: #fefefe;
+  border-color: #1a428a;
+  border-radius: 0.75rem;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+}
+
+.sponsorsDiv {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  height: auto;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+}

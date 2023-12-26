@@ -1,0 +1,43 @@
+.share {
+  position: fixed;
+  right: 32px;
+  top: 25px;
+}
+
+.share a {
+  align-items: center;
+  background: var(--app-background-color);
+  border-radius: 50000px;
+  border: 1px solid var(--app-border-color);
+  box-shadow: var(--app-shadow-color) 4px 4px;
+  color: var(--text-base-color);
+  display: flex;
+  font-size: .7rem;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 110%;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: var(--app-selection-color);
+  box-shadow: none;
+  transform: translate3d(4px, 4px, 0);
+  transition: all .1s ease;
+}
+
+.share svg {
+  height: 16px;
+  margin-left: 4px;
+  width: 16px;
+}
+
+@media (max-width: 600px) {
+  .share span {
+    display: none;
+  }
+  .share svg{
+    margin: 0;
+  }
+}

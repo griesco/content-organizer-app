@@ -1,0 +1,5 @@
+.subtitle {
+  color: var(--text-subtitle-color);
+  line-height: 1.15;
+  margin: 5rem 0 2rem;
+}
