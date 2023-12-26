@@ -10,20 +10,20 @@ export function Sponsors() {
                 <Sponsor
                     href='https://www.artech-consulting.com.ar/'
                     alt='Artech'
-                    src='artech.png'
+                    src='/artech.png'
                     style={{ height: '35px' }}
                 />
                 <Sponsor
                     href='https://www.pescar.org.ar/'
                     alt='Fundación Pescar'
-                    src='pescar.webp'
+                    src='/pescar.webp'
                     height='50px'
                     style={{ height: '65px' }}
                 />
                 <Sponsor
                     href='https://www.karunafoundation.nl/en/'
                     alt='Karuna'
-                    src='karuna.png'
+                    src='/karuna.png'
                     height='50px'
                     style={{ height: '45px' }}
                 />
