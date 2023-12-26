@@ -32,11 +32,11 @@ export {
     IconChevronDown,
     IconLinkedIn,
     NavBar,
+    RootLayout,
     Share,
     Small,
     Sponsor,
     Sponsors,
     Title,
     TitleCourse,
-    RootLayout
 };
