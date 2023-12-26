@@ -16,6 +16,7 @@ import { Sponsor } from "./ui/Sponsor";
 import { Sponsors } from "./cursos/Sponsors";
 import { Title } from "./ui/Title";
 import { TitleCourse } from "./curso/TitleCourse";
+import RootLayout from "./layouts/RootLayout";
 
 export {
     Accordion,
@@ -36,5 +37,6 @@ export {
     Sponsor,
     Sponsors,
     Title,
-    TitleCourse
+    TitleCourse,
+    RootLayout
 };
