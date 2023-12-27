@@ -7,7 +7,7 @@ import styles from '../../styles/AccordionItem.module.css'
 export function AccordionItem(props) {
     const contentEl = useRef(null);
     const { handleToggle, active, classe } = props;
-    const { id, clase, material, repositorio } = classe;
+    let { id, clase, resumen, material, repositorio, video } = classe;
 
     return (
         <>
@@ -20,7 +20,7 @@ export function AccordionItem(props) {
                     <IconChevronDown />
                 </span>
             </header>
-            <div 
+            <div
                 ref={contentEl}
                 className={`collapse ${active === id ? "show" : ""}`}
                 style={
@@ -29,19 +29,43 @@ export function AccordionItem(props) {
                         : { height: "0px" }
                 }
             >
+                <p>{resumen}</p>
                 <div className={styles.Item}>
                     <ul>
-                        <li><a 
-                        href={material}
-                        target="__black"
-                        rel="noopener"
-                        >Ir al Material</a></li>
-                        <li><a 
-                        href={repositorio}
-                        target="__black"
-                        rel="noopener"
-                        >Ir al Repositorio</a></li>
-                    </ul>   
+                        {material && (
+                            <li>
+                                <a
+                                    href={material}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Ver material
+                                </a>
+                            </li>
+                        )}
+                        {repositorio && (
+                            <li>
+                                <a
+                                    href={repositorio}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Ir al repositorio
+                                </a>
+                            </li>
+                        )}
+                        {video && (
+                            <li>
+                                <a
+                                    href={video}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Ver grabación
+                                </a>
+                            </li>
+                        )}
+                    </ul>
                 </div>
             </div>
         </>

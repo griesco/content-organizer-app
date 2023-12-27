@@ -1,24 +1,33 @@
-.item {
-    padding-left: 20px;
+.Item ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  margin-right: 5px;
 }
 
-.Item ul {
-    padding-bottom: 10px;
+.Item li {
+  list-style: none;
 }
 
 .Item a {
-    display: inline-block;
-    padding: 0 40px;
-    text-decoration: none;
-    padding-bottom: 5px;
-    color: inherit;
-    transition: all .5s;
-    width: 192px;
-    border-radius: 20px;
+  background: var(--app-background-color);
+  border-radius: 50000px;
+  border: 1px solid var(--app-border-color);
+  box-shadow: var(--app-shadow-color) 4px 4px;
+  color: var(--text-base-color);
+  display: inline-block;
+  font-size: 0.9rem;
+  line-height: 110%;
+  padding: 4px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .Item a:hover {
-    background-color: #494964;
-    color: #f8f8f8;
-    padding-right: 20px;
+  background: var(--app-selection-color);
+  box-shadow: none;
+  transform: translate3d(2px, 2px, 0);
+  transition: all 0.1s ease;
 }
