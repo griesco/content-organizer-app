@@ -1,0 +1,33 @@
+.Item ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  margin-right: 5px;
+}
+
+.Item li {
+  list-style: none;
+}
+
+.Item a {
+  background: var(--app-background-color);
+  border-radius: 50000px;
+  border: 1px solid var(--app-border-color);
+  box-shadow: var(--app-shadow-color) 4px 4px;
+  color: var(--text-base-color);
+  display: inline-block;
+  font-size: 0.9rem;
+  line-height: 110%;
+  padding: 4px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Item a:hover {
+  background: var(--app-selection-color);
+  box-shadow: none;
+  transform: translate3d(2px, 2px, 0);
+  transition: all 0.1s ease;
+}
