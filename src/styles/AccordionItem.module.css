@@ -1,0 +1,24 @@
+.item {
+    padding-left: 20px;
+}
+
+.Item ul {
+    padding-bottom: 10px;
+}
+
+.Item a {
+    display: inline-block;
+    padding: 0 40px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: inherit;
+    transition: all .5s;
+    width: 192px;
+    border-radius: 20px;
+}
+
+.Item a:hover {
+    background-color: #494964;
+    color: #f8f8f8;
+    padding-right: 20px;
+}
