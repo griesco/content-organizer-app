@@ -15,7 +15,7 @@ export function Footer() {
                             width='100'
                             loading='lazy'
                             style={{ marginTop: '-2px' }}
-                            src='/pescar.webp' alt='pescar logo'
+                            src='/pescar.png' alt='pescar logo'
                         />
                     </picture>
                 </a>

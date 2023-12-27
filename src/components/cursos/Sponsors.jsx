@@ -16,7 +16,7 @@ export function Sponsors() {
                 <Sponsor
                     href='https://www.pescar.org.ar/'
                     alt='Fundación Pescar'
-                    src='/pescar.webp'
+                    src='/pescar.png'
                     height='50px'
                     style={{ height: '65px' }}
                 />
