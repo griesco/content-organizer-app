@@ -1,8 +1,8 @@
 article {
-  background: #ffffff;
   border-radius: 10px;
   padding: 20px;
   width: 600px;
+  height: 68vh;
 }
 
 article header {
@@ -40,6 +40,7 @@ article p {
 
 article span {
   transition: 0.3s;
+  
 }
 
 .collapse {
@@ -47,6 +48,7 @@ article span {
   overflow: hidden;
   position: relative;
   transition: height 0.5s ease;
+  background-color: var(--app-background-color);
 }
 
 .collapse.show {
