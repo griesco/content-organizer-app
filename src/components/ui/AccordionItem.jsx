@@ -1,11 +1,13 @@
 /* eslint-disable react/prop-types */
 import { useRef } from "react";
 import { IconChevronDown } from "../../components";
+import styles from '../../styles/AccordionItem.module.css'
+
 
 export function AccordionItem(props) {
     const contentEl = useRef(null);
     const { handleToggle, active, classe } = props;
-    const { id, clase, resumen } = classe;
+    const { id, clase, material, repositorio } = classe;
 
     return (
         <>
@@ -18,7 +20,7 @@ export function AccordionItem(props) {
                     <IconChevronDown />
                 </span>
             </header>
-            <div
+            <div 
                 ref={contentEl}
                 className={`collapse ${active === id ? "show" : ""}`}
                 style={
@@ -27,7 +29,20 @@ export function AccordionItem(props) {
                         : { height: "0px" }
                 }
             >
-                <p>{resumen}</p>
+                <div className={styles.Item}>
+                    <ul>
+                        <li><a 
+                        href={material}
+                        target="__black"
+                        rel="noopener"
+                        >Ir al Material</a></li>
+                        <li><a 
+                        href={repositorio}
+                        target="__black"
+                        rel="noopener"
+                        >Ir al Repositorio</a></li>
+                    </ul>   
+                </div>
             </div>
         </>
     );
