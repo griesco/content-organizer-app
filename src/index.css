@@ -35,3 +35,7 @@ body {
   background-position: 0 0, 20px 20px;
   color: var(--text-base-color);
 }
+
+*::-webkit-scrollbar {
+	display: none;
+}
