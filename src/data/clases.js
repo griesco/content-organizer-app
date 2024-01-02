@@ -187,5 +187,14 @@ export const CLASES = [
         material: "https://drive.google.com/drive/folders/1zzP29YUiNz7NUe17hvr0X9N9YVId8Da_",
         repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher",
         video: null
+    },
+    {
+        idCurso: "3",
+        id: "7",
+        clase: "Clase 7 - Prueba técnica jr de React",
+        resumen: "En proceso el resumen de la clase..",
+        material: null,
+        repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher/-/tree/main/classes/04-prueba-tecnica-jr?ref_type=heads",
+        video: null
     }
 ]
