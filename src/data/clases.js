@@ -135,6 +135,15 @@ export const CLASES = [
         video: null
     },
     {
+        idCurso: "2",
+        id: "7",
+        clase: "Clase 7 - Basic Authentication",
+        resumen: "En proceso el resumen de la clase..",
+        material: "https://drive.google.com/drive/folders/1ZDMNYXJRHA9i8LiTYZHKXBc_idcJV-wa",
+        repositorio: "https://artech-gitlab.dyndns.org/users/lmorrone/projects",
+        video: null
+    },
+    {
         idCurso: "3",
         id: "1",
         clase: "Clase 1 - Introducción a JavaScript",
@@ -191,9 +200,9 @@ export const CLASES = [
     {
         idCurso: "3",
         id: "7",
-        clase: "Clase 7 - Prueba técnica jr de React",
+        clase: "Clase 7 - Prueba técnica Jr de React",
         resumen: "En proceso el resumen de la clase..",
-        material: null,
+        material: "https://drive.google.com/drive/folders/12FZJdmmRNK_b3kx5cirXXOcVHeE0RyDW",
         repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher/-/tree/main/classes/04-prueba-tecnica-jr?ref_type=heads",
         video: null
     }
