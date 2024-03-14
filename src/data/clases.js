@@ -205,5 +205,14 @@ export const CLASES = [
         material: "https://drive.google.com/drive/folders/12FZJdmmRNK_b3kx5cirXXOcVHeE0RyDW",
         repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher/-/tree/main/classes/04-prueba-tecnica-jr?ref_type=heads",
         video: null
+    },
+    {
+        idCurso: "3",
+        id: "8",
+        clase: "Clase 08 - Pokédex",
+        resumen: "En proceso el resumen de la clase..",
+        material: "https://drive.google.com/drive/folders/1jyVgKLjGcP3GgoxKgcx2JzZu5JbVYafv",
+        repositorio: "https://artech-gitlab.dyndns.org/griesco/react-fisher/-/tree/main/classes/05-pokedex?ref_type=heads",
+        video: null
     }
 ]
