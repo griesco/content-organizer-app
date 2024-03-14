@@ -23,7 +23,7 @@ export function Courses() {
                 />
                 <Course
                     title='Curso de React'
-                    subtitle='7 clases'
+                    subtitle='8 clases'
                     href='../curso/3'
                     image='/react.svg'
                     alt='React'
@@ -31,7 +31,7 @@ export function Courses() {
                 />
                 <Course
                     title='Curso de .NET'
-                    subtitle='7 clases'
+                    subtitle='8 clases'
                     href='../curso/2'
                     image='/dotnet.png'
                     alt='.NET'

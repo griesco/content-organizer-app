@@ -9,7 +9,7 @@ import { Courses } from "./cursos/Courses";
 import { Footer } from "./ui/Footer";
 import { Grid } from "./ui/Grid";
 import { IconLinkedIn, IconChevronDown } from "./ui/Icons";
-import { NavBar } from "./ui/NavBar";
+import { NavBar } from "./ui/Navbar";
 import { Share } from "./ui/Share";
 import { Small } from "./ui/Small";
 import { Sponsor } from "./ui/Sponsor";

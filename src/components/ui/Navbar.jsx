@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Share } from '../../components'
-import styles from '../../styles/NavBar.module.css'
+import styles from '../../styles/Navbar.module.css'
 
 export function NavBar() {
     return (
