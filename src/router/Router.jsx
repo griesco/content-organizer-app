@@ -4,7 +4,7 @@ import { Cursos, Curso } from "../pages";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="pescar">
       <Routes>
         <Route path="/" element={<Navigate to="/cursos" />} />
 

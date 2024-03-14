@@ -6,7 +6,7 @@ export function NavBar() {
     return (
         <header className={styles.nabvar}>
             <Link to='/'>
-                <img src="/artech.png" alt='Logo de Artech' width={130} />
+                <img src="/pescar/img/artech.png" alt='Logo de Artech' width={130} />
             </Link>
             <Share />
         </header>
