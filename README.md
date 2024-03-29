@@ -3,11 +3,10 @@
 > [!IMPORTANT]
 > Sitio web para ver todos los cursos de Artech | React + Vite | Fundación Pescar
 
-- [Cursos de Artech](#cursos-de-artech)
-  - [🎉 Presentation](#-presentation)
-  - [⚙️ Stack](#️-stack)
-  - [🚀 Getting Started](#-getting-started)
-  - [👑 Contribuidores](#-contribuidores)
+- [🎉 Presentation](#-presentation)
+- [⚙️ Stack](#️-stack)
+- [🚀 Getting Started](#-getting-started)
+- [👑 Contribuidores](#-contribuidores)
 
 ## 🎉 Presentation
 
