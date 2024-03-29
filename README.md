@@ -3,9 +3,11 @@
 > [!IMPORTANT]
 > Sitio web para ver todos los cursos de Artech | React + Vite | Fundación Pescar
 
-- [🎉 Presentation](#presentation)
-- [⚙️ Stack](#️stack)
-- [🚀 Getting Started](#getting-started)
+- [Cursos de Artech](#cursos-de-artech)
+  - [🎉 Presentation](#-presentation)
+  - [⚙️ Stack](#️-stack)
+  - [🚀 Getting Started](#-getting-started)
+  - [👑 Contribuidores](#-contribuidores)
 
 ## 🎉 Presentation
 
@@ -68,3 +70,11 @@ Abrir [http://localhost:5173/](http://localhost:5173/) para ver el sitio web �
 | `dev`    | Inicia el servidor de desarrollo local en `localhost:5173`. |
 | `build`  | Construir sitio para producción.                            |
 | `lint`   | Analice el código con ESlint.                               |
+
+## 👑 Contribuidores
+
+**¡Gracias a todos los colaboradores que han hecho posible este proyecto!**
+
+<a href="https://github.com/griesco/content-organizer-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=griesco/content-organizer-app" />
+</a>
