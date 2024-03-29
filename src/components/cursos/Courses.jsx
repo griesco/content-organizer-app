@@ -17,23 +17,23 @@ export function Courses() {
                     title='Curso de SQL'
                     subtitle='9 clases'
                     href='../curso/1'
-                    image='/sql.png'
+                    image='/pescar/img/sql.png'
                     alt='SQL'
                     author='Leandro Morrone'
                 />
                 <Course
                     title='Curso de React'
-                    subtitle='6 clases'
+                    subtitle='8 clases'
                     href='../curso/3'
-                    image='/react.svg'
+                    image='/pescar/img/react.svg'
                     alt='React'
                     author={<>Iván Caravajal <br /> Gerónimo Riesco</>}
                 />
                 <Course
                     title='Curso de .NET'
-                    subtitle='6 clases'
+                    subtitle='8 clases'
                     href='../curso/2'
-                    image='/dotnet.png'
+                    image='/pescar/img/dotnet.png'
                     alt='.NET'
                     author='Leandro Morrone'
                 />
